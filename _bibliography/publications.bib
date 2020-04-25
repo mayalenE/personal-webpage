@@ -1,0 +1,86 @@
+---
+---
+Publications
+==========
+@incollection{etcheverry2018nonlinear,
+  url={https://link.springer.com/chapter/10.1007/978-3-030-00889-5_29},
+  image={/assets/publications/etcheverry2018nonlinear/video.gif},
+  title={Nonlinear Adaptively Learned Optimization for Object Localization in 3D Medical Images},
+  authors={<b>Mayalen Etcheverry</b>, Bogdan Georgescu, Benjamin Odry, Thomas J Re, Kaushik Shivam, Geiger Bernhard, Nadar Mariappan, Sasa Grbic, Dorin Comaniciu},
+  year={2018},
+  venue={DLMIA workshop at MICCAI 2018, also abstract at MED-NEURIPS 2018},
+  precision={<b>US Patent</b>: <a style="font-size: 12px; font-style: italic;" href="https://patents.google.com/patent/US20190378291A1/en"> https://patents.google.com/patent/US20190378291A1/en </a>},
+  pdf={/assets/publications/etcheverry2018nonlinear/paper.pdf},
+  poster={/assets/publications/etcheverry2018nonlinear/poster.pdf},
+  abstract={Precise localization of anatomical structures in 3D medical
+images can support several tasks such as image registration, organ segmentation,
+lesion quantification and abnormality detection. This work
+proposes a novel method, based on deep reinforcement learning, to
+actively learn to localize an object in the volumetric scene. Given the
+parameterization of the sought object, an intelligent agent learns to
+optimize the parameters by performing a sequence of simple control actions.
+We show the applicability of our method by localizing boxes (9 degrees of
+freedom) on a set of acquired MRI scans of the brain region. We achieve
+high speed and high accuracy detection results, with robustness to
+challenging cases. This method can be applied to a broad range of problems
+and easily generalized to other type of imaging modalities.},
+  publication={https://link.springer.com/chapter/10.1007/978-3-030-00889-5_29}
+}
+
+@article{reinke2019intrinsically,
+  url={https://automated-discovery.github.io/},
+  image={/assets/publications/reinke2019intrinsically/image.gif},
+  title={Intrinsically Motivated Exploration for Automated Discovery of Patterns in Morphogenetic Systems},
+  authors={Chris Reinke*, <b>Mayalen Etcheverry*</b>, Pierre-Yves Oudeyer},
+  year={2019},
+  venue={ICLR 2020 <a style="font-weight: bold; color: $brand-color">(Spotlight)</a>},
+  publication={https://openreview.net/forum?id=rkg6sJHYDr},
+  pdf={https://arxiv.org/pdf/1908.06663.pdf},
+  webpage={https://automated-discovery.github.io/},
+  talk={},
+  blog={},
+  abstract={In many complex dynamical systems, artificial or natural, one can observe self-organization of patterns emerging from local rules.
+  Cellular automata,  like the Game of Life (GOL), have been widely used as abstract models enabling the study of various aspects of self-organization
+  and morphogenesis, such as the emergence of spatially localized patterns.
+  However, findings of self-organized patterns in such models have so far relied on manual tuning of parameters and initial states,and on the human eye to
+  identify “interesting” patterns. In this paper, we formulate the problem of automated discovery of diverse self-organized patterns in such high-dimensional
+  complex dynamical systems, as well as a framework for experimentation and evaluation. Using a continuous GOL as a testbed, we show that recent
+  intrinsically-motivated machine learning algorithms (POP-IMGEPs), initially developed for learning of inverse models in robotics, can be transposed and
+  used in this novel application area. These algorithms combine intrinsically-motivated goal exploration and unsupervised learning of goal space representations.
+  Goal space representations describe the “interesting” features of patterns for which diverse variations should be discovered. In particular, we compare various approaches
+  to define and learn goal space representations from the perspective of discovering diverse spatially localized patterns. Moreover, we introduce an extension of
+  a state-of-the-art POP-IMGEP algorithm which incrementally learns a goal representation using a deep auto-encoder, and the use of CPPN primitives for generating initialization parameters.
+  We show that it is more efficient than several baselines and equally efficient as a system pre-trained on a hand-made database of patterns identified by human experts},
+}
+
+@article{etcheverry2020progressive,
+  url={http://www.betr-rl.ml/2020/abs/33/},
+  image={/assets/publications/etcheverry2020progressive/holmes.png},
+  title={Progressive Growing of Self-Organized Hierarchical Representations for Exploration},
+  authors={<b>Mayalen Etcheverry</b>, Pierre-Yves Oudeyer, Chris Reinke},
+  year={2020},
+  venue={<i>Beyond “tabula rasa” in reinforcement learning</i> workshop at ICLR 2020},
+  publication={http://www.betr-rl.ml/2020/abs/33/},
+  pdf={/assets/publications/etcheverry2020progressive/paper.pdf},
+  talk={http://www.betr-rl.ml/2020/abs/33/},
+  abstract={Designing agent that can autonomously discover and learn a diversity of structures
+  and skills in unknown changing environments is key for lifelong machine
+learning. A central challenge is how to learn incrementally representations in
+order to progressively build a map of the discovered structures and re-use it to
+further explore. To address this challenge, we identify and target several key functionalities.
+First, we aim to build lasting representations and avoid catastrophic
+forgetting throughout the exploration process. Secondly we aim to learn a diversity of representations
+allowing to discover a “diversity of diversity” of structures
+(and associated skills) in complex high-dimensional environments. Thirdly, we
+target representations that can structure the agent discoveries in a coarse-to-fine
+manner. Finally, we target the reuse of such representations to drive exploration
+toward an “interesting” type of diversity, for instance leveraging human guidance.
+Current approaches in state representation learning rely generally on monolithic
+architectures which do not enable all these functionalities. Therefore, we present
+a novel technique to progressively construct a Hierarchy of Observation Latent
+Models for Exploration Stratification, called HOLMES. This technique couples
+the use of a dynamic modular model architecture for representation learning with
+intrinsically-motivated goal exploration processes (IMGEPs). The paper shows
+results in the domain of automated discovery of diverse self-organized patterns,
+considering as testbed the experimental framework from Reinke et al. (2019).},
+}

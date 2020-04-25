@@ -1,0 +1,45 @@
+---
+---
+<div class="text-justify">{{reference}}</div>
+
+{% if entry.notes %}
+    <a href="{{ entry.notes }}">notes</a>
+{% endif %}
+
+{% if entry.pdf %}
+   | <a href="{{ entry.pdf }}">pdf</a>
+{% endif %}
+
+{% if entry.abstract %}
+   | <a href="{{ entry.abstract }}">abstract</a>
+{% endif %}
+
+   | <a shape="rect" href="javascript:;" onclick="toggleBibtex{{entry.key}}()">bibtex</a>
+
+
+{% if entry.video %}
+   | <a href="{{ entry.video }}">video</a>
+{% endif %}
+
+{% if entry.code %}
+   | <a href="{{ entry.code }}">code</a>
+{% endif %}
+
+{% if entry.talk %}
+   | <a href="{{ entry.talk }}">oral talk</a>
+{% endif %}
+
+<div id="a{{entry.key}}" style="display: none;">
+<pre>{{entry.bibtex}}</pre>
+</div>
+
+<script>
+function toggleBibtex{{entry.key}}(parameter) {
+    var x= document.getElementById('a{{entry.key}}');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
