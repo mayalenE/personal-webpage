@@ -10,12 +10,8 @@
 # Changing title and description according to your website requirement is important.
 
 
-title: Blackcurrant
-description: Blackcurrant is a minimal theme to show off your skills online.
-url: https://blackcurrant.jekyll-themes.com
-buy-link: 
-  rzp: https://rzp.io/l/blackcurrant-theme
-  pp: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5TM7X9TE7KMKN
+title: 
+description: Personal website of Mayalen Etcheverry.
 # For more customizations, go to  _data/main.yml
 
 
