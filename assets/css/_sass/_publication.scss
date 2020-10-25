@@ -27,7 +27,7 @@
             width: 25%;
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: center center;
+            background-position: center left;
             transition: all 200ms ease-in;
                 @include media-query($on-palm) {
                       height: 200px;
