@@ -1,7 +1,7 @@
 # Image, name, profession in the sidebar
 
 image: /assets/images/author-image.jpg
-profession: Research student in ML and AI
+profession: <i class="fa fa-envelope fa"></i> mayalen.etcheverry@inria.fr
 email: mayalen.etcheverry@inria.fr # The contact form submissions will be received in this email address.
 
 # Menu items in the sidebar
@@ -32,3 +32,7 @@ social:
   github:
       icon: fa-github
       link: https://github.com/mayalenE
+
+  cv:
+      icon: assets/icon/icon_cv.svg
+      link: assets/pdf/Resume_Mayalen_Etcheverry.pdf

@@ -26,7 +26,14 @@
            {% if site.data.main.social.github.link %}
              <li><a href="{{site.data.main.social.github.link}}"><i class="fa {{site.data.main.social.github.icon}}"></i></a></li>
            {% endif %}
+
+	   {% if site.data.main.social.cv.link %}
+             <li><a href="{{site.data.main.social.cv.link}}">{% include icon_cv.svg %}</a></li>
+           {% endif %}
          </ul>
      </div>
      </div>
 </div>
+<style type="text/css">
+#cvsvg:hover #backcircle {fill:#444;}
+</style>
