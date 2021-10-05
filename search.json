@@ -1,6 +1,16 @@
 [
 
 {
+"category": "open-endedness, complex systems, automated discovery, unsupervised representation learning, goal exploration processes, self-organization, cellular automata",
+"title": "Meta-Diversity Search in Minecraft",
+"description": "",
+"url": "/blog/evocraftsearch/",
+"image": "/assets/images/evocraftsearch.png",
+"author": "Mayalen Etcheverry"
+}
+,
+
+{
 "category": "machine learning, discovery, unsupervised representation learning, self-organization, cellular automata",
 "title": "Automated discovery in a continuous Game of Life",
 "description": "Self-organisation occurs in many physical, chemical and biological systems, a...",
