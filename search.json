@@ -1,6 +1,16 @@
 [
 
 {
+"category": "sensorimotor agency, emergence of life and cognition, complex systems, automated discovery, goal exploration processes, self-organization, cellular automata",
+"title": "Learning Sensorimotor Agency in Cellular Automata",
+"description": "",
+"url": "/blog/sensorimotor-lenia/",
+"image": "/assets/images/maze.gif",
+"author": "Mayalen Etcheverry"
+}
+,
+
+{
 "category": "open-endedness, complex systems, automated discovery, unsupervised representation learning, goal exploration processes, self-organization, cellular automata",
 "title": "Meta-Diversity Search in Minecraft",
 "description": "",
