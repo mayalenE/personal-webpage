@@ -23,25 +23,26 @@
         .image {
             display: inline-block;
             vertical-align: middle;
-            height: 170px;
-            width: 25%;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center left;
-            transition: all 200ms ease-in;
-                @include media-query($on-palm) {
-                      height: 200px;
-             }
+            padding: 0px;
+            // height: 170px;
+            // width: 25%;
+            // background-repeat: no-repeat;
+            // background-size: cover;
+            // background-position: center left;
+            // transition: all 200ms ease-in;
+            //     @include media-query($on-palm) {
+            //           height: 200px;
+            //  }
         }
 
         .text {
             padding: 10px;
             display: inline-block;
             vertical-align: middle;
-            width: 75%;
-                @include media-query($on-palm) {
-                    padding: 0.25em;
-            }
+            //width: 75%;
+            //     @include media-query($on-palm) {
+            //         padding: 0.25em;
+            // }
 
         }
 
