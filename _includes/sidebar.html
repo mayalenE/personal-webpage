@@ -27,9 +27,14 @@
              <li><a href="{{site.data.main.social.github.link}}"><i class="fa {{site.data.main.social.github.icon}}"></i></a></li>
            {% endif %}
 
-	   {% if site.data.main.social.cv.link %}
+           {% if site.data.main.social.scholar.link %}
+             <li><a href="{{site.data.main.social.scholar.link}}">{% include icon_scholar.svg %}</a></li>
+           {% endif %}
+
+           {% if site.data.main.social.cv.link %}
              <li><a href="{{site.data.main.social.cv.link}}">{% include icon_cv.svg %}</a></li>
            {% endif %}
+
          </ul>
      </div>
      </div>

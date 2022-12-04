@@ -33,6 +33,10 @@ social:
       icon: fa-github
       link: https://github.com/mayalenE
 
+  scholar:
+      icon: _includes/icon_scholar.svg
+      link: https://scholar.google.com/citations?user=DjONosMAAAAJ&hl=no
+
   cv:
-      icon: assets/icon/icon_cv.svg
+      icon: _includes/icon_cv.svg
       link: assets/pdf/Resume_Mayalen_Etcheverry.pdf
