@@ -1,6 +1,6 @@
 ---
 title: SBMLtoODEjax
-image: /assets/images/sbmltoodejax.png
+image: /assets/images/sbmltoodejax.svg
 author: Mayalen Etcheverry
 categories:
     - SBML
@@ -10,5 +10,5 @@ layout: post
 ---
 
 <script type="text/javascript">
-window.location = "https://github.com/flowersteam/sbmltoodejax"
+window.location = "https://developmentalsystems.org/sbmltoodejax/"
 </script>
