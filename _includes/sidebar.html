@@ -1,8 +1,13 @@
 <div class="sidebar">
     <div class="author-container shadow">
      <div class="author"><img src="{{site.data.main.image}}" width="100%" height="auto;" alt="{{site.title}}" onclick="location.href='/'"></div>
-     <div class="about text-center"><h1 class="title"><a href="/{{site.baseurl}}">{{site.data.main.name}}</a></h1></div>
-     <div class="bio text-center"><p class="m0">{{site.data.main.profession}}</p></div>
+     <div class="about text-center"><h1 class="title"><a href="/{{site.baseurl}}"></a></h1></div>
+     <div class="bio text-center">
+	<p class="m1"><b>{{ site.data.main.name }}</b></p>	
+	<p class="m0">{{ site.data.main.profession }}</p>
+	<p class="m0">{{ site.data.main.location }}</p>	
+	<p class="m0">{{ site.data.main.email }}</p>
+     </div>
      <hr class="dashed">
      <div class="social text-center">
          <ul class="portfolio p0">

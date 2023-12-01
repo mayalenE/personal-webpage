@@ -58,6 +58,15 @@
             {% if entry.code %}
             <a href="{{ entry.code }}">code</a> |
             {% endif %}
+
+            {% if entry.documentation %}
+            <a href="{{ entry.documentation }}">documentation</a> |
+            {% endif %}
+
+            {% if entry.tutorials %}
+            <a href="{{ entry.tutorials }}">tutorials</a> |
+            {% endif %}
+
         </div>
     </div>
 </a>

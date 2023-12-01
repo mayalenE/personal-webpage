@@ -1,8 +1,10 @@
 # Image, name, profession in the sidebar
 
 image: /assets/images/author-image.jpg
-profession: <i class="fa fa-envelope fa"></i> mayalen.etcheverry@inria.fr
-email: mayalen.etcheverry@inria.fr # The contact form submissions will be received in this email address.
+name: Mayalen Etcheverry
+profession: Ph.D. Student in Machine Learning
+location: <i class="fa fa-map-pin fa"></i> INRIA Bordeaux, France
+email: <i class="fa fa-envelope fa"></i> etcheverry.mayalen@gmail.com # The contact form submissions will be received in this email address.
 
 # Menu items in the sidebar
 # Use a maximum of 3 items

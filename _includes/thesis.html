@@ -1,0 +1,14 @@
+<h2 class="m0a">Thesis:</h2>
+<div class="projects">
+  {% for item in site.thesis %}
+  <a href="{{item.url}}" class="nostyle p-3">
+    <div class="project borders cards" data-aos="fade-up">
+      <div
+        class="project-image"
+        style="background-image: url({{item.image}})"
+      ></div>
+      <p class="title text-center">{{item.title}}</p>
+    </div>
+  </a>
+  {% endfor %}
+</div>
