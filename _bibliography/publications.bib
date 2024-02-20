@@ -131,6 +131,7 @@ life-like phenomena, such as the open-ended evolution of virtual creatures, is o
   year = {2023},
   venue = {<i>AI for Science</i> Workshop at <b>NeurIPS 2023 (Poster)</b>},
   pdf = {https://arxiv.org/pdf/2307.08452.pdf},
+  publication={https://openreview.net/forum?id=exP6UntwqJ},
   code = {https://github.com/flowersteam/sbmltoodejax},
   documentation = {https://developmentalsystems.org/sbmltoodejax/},
   tutorials = {https://github.com/flowersteam/sbmltoodejax/tree/main/docs/source/tutorials/},
@@ -145,7 +146,8 @@ life-like phenomena, such as the open-ended evolution of virtual creatures, is o
   authors = {<b>Mayalen Etcheverry</b>, Clément Moulin-Frier, Pierre-Yves Oudeyer, Michael Levin},
   month={september},
   year = {2023},
-  venue = {Preprint <b>(In Submission)</b>},
+  venue = {<b>eLife Journal (2024)</b>},
+  publication = {https://elifesciences.org/reviewed-preprints/92683},
   pdf = {https://osf.io/s6thq/},
   code = {https://github.com/flowersteam/curious-exploration-of-grn-competencies},
   tutorials = {https://github.com/flowersteam/curious-exploration-of-grn-competencies/tree/main/notebooks},
@@ -154,17 +156,18 @@ life-like phenomena, such as the open-ended evolution of virtual creatures, is o
 }
 
 
-%%article{hamon2022learning,
-%  url={https://developmentalsystems.org/sensorimotor-lenia-companion/},
-%  title = {Learning Sensorimotor Agency in Cellular Automata},
-%  image = {/assets/publications/hamon2022learning/demo.gif},
-%  authors = {Gautier Hamon*, <b>Mayalen Etcheverry*</b>, Bert Wang-Chak Chan, Clément Moulin-Frier, Pierre-Yves Oudeyer},
-%  year = {2023},
-%  month={november},
-%  venue = {Preprint <b>(In Submission)</b>},
-%  code = {https://github.com/flowersteam/sensorimotor-lenia-search},
-%  webpage={https://developmentalsystems.org/sensorimotor-lenia-companion/},
-%  tutorials={https://colab.research.google.com/drive/11mYwphZ8I4aur8KuHRR1HEg6ST5TI0RW?usp=sharing},
-%  blogpost={https://developmentalsystems.org/sensorimotor-lenia/},
-%  abstract={Cellular automata (CA) can generate a high diversity of complex self-organized patterns from local update rules, resembling properties of biological systems such as a spatially localized organization, directional or rotational movements. In fact, CA have a long relationship with biology and especially with theories about the origins of life and cognition: they are self-organizing systems that can serve as a computational testbed for such theories but also as a source of inspiration on what are the basic building blocks of “life”. However, while the notion of agency, encompassing individuality, self-maintenance and embodiment, is central in theoretical biology, it remains unclear whether such properties can emerge in CA environments governed by sets of local rules. Here, we propose an approach to automate scientific exploration of such self-organized structures: it leverages AI techniques mixing curriculum learning, diversity search and gradient descent over a differentiable CA. We show this enables the discovery of environments that self-organize agents with robust sensorimotor capabilities. The discovered agents, using only local update rules, are capable of moving and reacting to the perturbations induced by the environment, allowing them to preserve their integrity while dealing with various obstacles or other agents in their way. They also show great generalization, with robustness to changes of scale, random updates or perturbations from the environment not seen during training. We argue that the field of artificial intelligence could benefit from these capabilities of self-organizing systems to make robust intelligent systems that can quickly adapt to new environments and perturbations.}
-% }
+@article{hamon2024learning,
+  url={https://developmentalsystems.org/sensorimotor-lenia-companion/},
+  title = {Discovering Sensorimotor Agency in Cellular Automata using Diversity Search},
+  image = {/assets/publications/hamon2022learning/demo.gif},
+  authors = {Gautier Hamon*, <b>Mayalen Etcheverry*</b>, Bert Wang-Chak Chan, Clément Moulin-Frier, Pierre-Yves Oudeyer},
+  year = {2023},
+  month={june},
+  venue = {Preprint},
+  pdf = {https://arxiv.org/pdf/2402.10236.pdf},
+  code = {https://github.com/flowersteam/sensorimotor-lenia-search},
+  webpage={https://developmentalsystems.org/sensorimotor-lenia-companion/},
+  tutorials={https://colab.research.google.com/drive/11mYwphZ8I4aur8KuHRR1HEg6ST5TI0RW?usp=sharing},
+  blogpost={https://developmentalsystems.org/sensorimotor-lenia/},
+  abstract={The research field of Artificial Life studies how life-like phenomena such as autopoiesis, agency, or self-regulation can self-organize in computer simulations. In cellular automata (CA), a key open-question has been whether it it is possible to find environment rules that self-organize robust “individuals” from an initial state with no prior existence of things like “bodies”, “brain”, “perception” or “action”. In this paper, we leverage recent advances in machine learning, combining algorithms for diversity search, curriculum learning and gradient descent, to automate the search of such “individuals”, i.e. localized structures that move around with the ability to react in a coherent manner to external obstacles and maintain their integrity, hence primitive forms of sensorimotor agency.  We show that this approach enables to find systematically environmental conditions in CA leading to self-organization of such basic forms of agency. Through multiple experiments, we show that the discovered agents have surprisingly robust capabilities to move, maintain their body integrity and navigate among various obstacles. They also show strong generalization abilities, with robustness to changes of scale, random updates or perturbations from the environment not seen during training. We discuss how this approach opens new perspectives in AI and synthetic bioengineering.}
+ }
