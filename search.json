@@ -1,6 +1,26 @@
 [
 
 {
+"category": "SimpleFOC, RAG, pytorch",
+"title": "Building a SimpleFOC AI Assistant with RAG",
+"description": "",
+"url": "/blog/simple-foc-assistant/",
+"image": "https://github.com/mayalenE/simple-foc-assistant/blob/main/logo_white.png?raw=true",
+"author": "Mayalen Etcheverry"
+}
+,
+
+{
+"category": "transformer, pytorch, sketch generation, mixture density network",
+"title": "Generate Human-like Sketches with Transformers",
+"description": "",
+"url": "/blog/sketch-transformer/",
+"image": "https://github.com/mayalenE/sketch-transformer/blob/main/sketching_cats.gif?raw=true",
+"author": "Mayalen Etcheverry"
+}
+,
+
+{
 "category": "novelty search, meta diversity, emergence of life and cognition, complex systems, automated discovery, goal exploration processes, self-organization, cellular automata",
 "title": "A conversation with Nicholas Guttenberg about my work",
 "description": "",
