@@ -34,8 +34,18 @@
 "category": "Biological Networks, Diversity Search, JAX",
 "title": "Diversity Search to Explore Biological Networks (tuto 1)",
 "description": "",
-"url": "/blog/grn-tuto1/",
+"url": "/blog/grn-tuto1-(copy)/",
 "image": "/assets/images/grn-tuto1.png",
+"author": "Mayalen Etcheverry"
+}
+,
+
+{
+"category": "Biological Networks, SBML, JAX",
+"title": "How to use SBMLtoODEjax (short tutorial series)",
+"description": "",
+"url": "/blog/sbmltoodejax/",
+"image": "/assets/images/sbmltoodejax-parallel.png",
 "author": "Mayalen Etcheverry"
 }
 ,
