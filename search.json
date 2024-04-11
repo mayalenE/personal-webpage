@@ -21,6 +21,26 @@
 ,
 
 {
+"category": "Biological Networks, Diversity Search, JAX",
+"title": "Diversity Search to Explore Biological Networks (tuto 2)",
+"description": "",
+"url": "/blog/grn-tuto2/",
+"image": "/assets/images/grn-tuto2.png",
+"author": "Mayalen Etcheverry"
+}
+,
+
+{
+"category": "Biological Networks, Diversity Search, JAX",
+"title": "Diversity Search to Explore Biological Networks (tuto 1)",
+"description": "",
+"url": "/blog/grn-tuto1/",
+"image": "/assets/images/grn-tuto1.png",
+"author": "Mayalen Etcheverry"
+}
+,
+
+{
 "category": "novelty search, meta diversity, emergence of life and cognition, complex systems, automated discovery, goal exploration processes, self-organization, cellular automata",
 "title": "A conversation with Nicholas Guttenberg about my work",
 "description": "",
